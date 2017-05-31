@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/write_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="admsi.com.br.myapplication.WriteFragment">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:width="350dp"
+        android:paddingTop="30dp"
+        android:text="Usuário" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"
+        android:width="350dp"
+        android:text="Sua dúvida aqui"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/butao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="420dp"
+        android:text="Enviar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Enviar dúvida para:"
+        android:textSize="45px" />
+</FrameLayout>
